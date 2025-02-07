@@ -22,6 +22,7 @@ setuptools.setup(
     package_data={
         "tinyman.v1": ["asc.json"],
         "tinyman.v2": ["amm_approval.map.json", "swap_router_approval.map.json"],
+        "tinyman.liquid_staking": ["structs.json"],
     },
     include_package_data=True,
 )
